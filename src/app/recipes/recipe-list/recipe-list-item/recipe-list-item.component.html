@@ -1,0 +1,13 @@
+<div class="recipeDiv" [routerLink]="[recipe.id]" routerLinkActive="active">
+  <div class="" style="padding: 10px">
+    <p>{{ recipe.name }}</p>
+    <p>{{ recipe.description }}</p>
+  </div>
+  <img
+    [src]="recipe.imageUrl"
+    alt="recipe Image"
+    class="img-responsive"
+    width="150px"
+    height="100px"
+  />
+</div>
